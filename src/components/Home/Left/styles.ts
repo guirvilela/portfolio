@@ -14,7 +14,7 @@ export const LeftContainer = styled.header`
 `;
 
 export const ProfileInfo = styled.div`
-  margin-bottom: 62px;
+  margin-bottom: 3rem;
 
   h1 {
     font-size: 2.5rem;
@@ -31,6 +31,7 @@ export const OptionsLink = styled.ul`
   flex-direction: column;
   gap: 16px;
   max-width: 150px;
+  margin-bottom: 3rem;
 `;
 
 export const Option = styled.li`
@@ -59,10 +60,35 @@ export const Option = styled.li`
       background-color: ${({ theme }) => theme.colors.shade};
       opacity: 1;
     }
+
     a {
       color: ${({ theme }) => theme.colors.shade};
       opacity: 1;
     }
+  }
+`;
+
+export const Techs = styled.div`
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  gap: 2rem;
+
+  div:nth-child(9),
+  div:nth-child(10),
+  div:nth-child(11) {
+    img {
+      width: 26px;
+    }
+  }
+
+  div:hover {
+    filter: brightness(2);
+  }
+
+  img {
+    width: 36px;
+    transition: filter 0.3s ease-in-out;
   }
 `;
 
