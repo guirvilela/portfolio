@@ -18,6 +18,7 @@ export const TooltipContent = styled.div`
 
     b {
       white-space: nowrap;
+      font-weight: 600;
     }
   }
 `;

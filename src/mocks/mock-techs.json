@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "tech": "HTML",
+    "icon": "html"
+  },
+  {
+    "id": 2,
+    "tech": "CSS",
+    "icon": "css"
+  },
+  {
+    "id": 3,
+    "tech": "Javascript",
+    "icon": "javascript"
+  },
+  {
+    "id": 4,
+    "tech": "Typescript",
+    "icon": "typescript"
+  },
+  {
+    "id": 5,
+    "tech": "React",
+    "icon": "react"
+  },
+  {
+    "id": 6,
+    "tech": "React Native",
+    "icon": "react"
+  },
+  {
+    "id": 7,
+    "tech": "Angular",
+    "icon": "angular"
+  },
+  {
+    "id": 8,
+    "tech": "Sass",
+    "icon": "sass"
+  },
+  {
+    "id": 9,
+    "tech": "Storybook",
+    "icon": "storybook"
+  },
+  {
+    "id": 10,
+    "tech": "Jest",
+    "icon": "jest"
+  },
+  {
+    "id": 11,
+    "tech": "Cypress",
+    "icon": "cypress"
+  }
+]
