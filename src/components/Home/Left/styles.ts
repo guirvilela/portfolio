@@ -72,7 +72,7 @@ export const Techs = styled.div`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 
-  gap: 2rem;
+  gap: 2.5rem;
 
   div:nth-child(9),
   div:nth-child(10),
