@@ -9,4 +9,7 @@ export const colors = {
 
   shade: "#FFFFFF",
   unpress: "#c0c8d1",
+
+  border: "#e2e8f01a",
+  border_climp: "#535c6b",
 };

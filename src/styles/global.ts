@@ -38,6 +38,20 @@ button, a{
     border:0;
 }
 
+::-webkit-scrollbar {
+    border-radius: 5px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: ${() => theme.colors.green_500} ;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: ${() => theme.colors.background} ;
+}
+
 [disabled]{
     opacity: 0.6;
     cursor: not-allowed;

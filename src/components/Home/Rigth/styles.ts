@@ -63,7 +63,6 @@ export const BtnFileContainer = styled.div`
 export const BtnFile = styled.a`
   display: flex;
   align-items: center;
-  ${({ theme }) => theme.colors.shade};
   position: relative;
   text-decoration: none;
 
@@ -97,4 +96,10 @@ export const BtnFile = styled.a`
     left: 50%;
     transform: translateX(-50%);
   }
+`;
+
+export const SectionProjects = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 `;
