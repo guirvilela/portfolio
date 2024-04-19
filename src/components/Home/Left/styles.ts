@@ -34,12 +34,14 @@ export const OptionsLink = styled.ul`
   margin-bottom: 3rem;
 `;
 
-export const Option = styled.li`
+export const Option = styled.a`
   display: flex;
+  list-style: none;
   align-items: center;
+  text-decoration: none;
   gap: 8px;
   cursor: pointer;
-  transition: width 0.2s ease-in-out, span width 0.3s ease-in-out;
+  transition: width 0.2s ease-in-out;
 
   span {
     opacity: 0.5;
@@ -49,7 +51,7 @@ export const Option = styled.li`
     opacity: 0.7;
     transition: width 0.2s ease-in-out;
   }
-  a {
+  li {
     color: ${({ theme }) => theme.colors.unpress};
     opacity: 0.7;
   }
@@ -61,7 +63,20 @@ export const Option = styled.li`
       opacity: 1;
     }
 
-    a {
+    li {
+      color: ${({ theme }) => theme.colors.shade};
+      opacity: 1;
+    }
+  }
+
+  &.active {
+    span {
+      width: 80px;
+      background-color: ${({ theme }) => theme.colors.shade};
+      opacity: 1;
+    }
+
+    li {
       color: ${({ theme }) => theme.colors.shade};
       opacity: 1;
     }

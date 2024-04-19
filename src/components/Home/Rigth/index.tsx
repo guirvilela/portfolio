@@ -7,6 +7,7 @@ import {
   RigthContainer,
   SectionDescription,
   SectionExperiences,
+  SectionProjects,
   Separator,
 } from "./styles";
 
@@ -14,10 +15,11 @@ import arrowIcon from "../../../assets/icons/arrow.svg";
 import curriculoBr from "../../../assets/pdf/Profile-br.pdf";
 import curriculoEn from "../../../assets/pdf/Profile-en.pdf";
 import experiences from "../../../mocks/mock-experience.json";
+import projects from "../../../mocks/mock-projects.json";
 
 export function HomeRigth() {
   return (
-    <RigthContainer>
+    <RigthContainer id="about">
       <SectionDescription>
         <h1>Sobre</h1>
 
@@ -34,7 +36,7 @@ export function HomeRigth() {
         </ProfileDescription>
       </SectionDescription>
 
-      <Separator />
+      <Separator id="experiences" />
 
       <SectionExperiences>
         <h1>Experiência</h1>
@@ -60,6 +62,22 @@ export function HomeRigth() {
           </BtnFile>
         </BtnFileContainer>
       </SectionExperiences>
+
+      <Separator id="projects" />
+
+      <SectionProjects>
+        {projects.map((project) => (
+          <Card
+            key={`card-project-${project.id}`}
+            functionTitle={project.title}
+            description={project.description}
+            img={project.img}
+            link={project.link}
+            techs={project.techs}
+            phone={project.phone}
+          />
+        ))}
+      </SectionProjects>
     </RigthContainer>
   );
 }

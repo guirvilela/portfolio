@@ -28,6 +28,8 @@ import { Tooltip } from "../../Tooltip";
 import React from "react";
 
 export function HomeLeft() {
+  const [activeSection, setActiveSection] = React.useState("about");
+
   const iconOrganize = React.useCallback((icon: string) => {
     const types: Record<string, string> = {
       angular: AngularIcon,
@@ -45,6 +47,46 @@ export function HomeLeft() {
     return types[icon];
   }, []);
 
+  React.useEffect(() => {
+    function handleScroll() {
+      const aboutSection = document.getElementById("about");
+      const experiencesSection = document.getElementById("experiences");
+      const projectsSection = document.getElementById("projects");
+
+      const aboutRect = aboutSection.getBoundingClientRect();
+      const experiencesRect = experiencesSection.getBoundingClientRect();
+      const projectsRect = projectsSection.getBoundingClientRect();
+
+      console.log(aboutRect);
+
+      if (aboutRect.top > -290) {
+        document.querySelector(".about").classList.add("active");
+      } else {
+        document.querySelector(".about").classList.remove("active");
+      }
+
+      if (experiencesRect.bottom <= 0 && projectsRect.top > 70) {
+        document.querySelector(".experiences").classList.add("active");
+      } else {
+        document.querySelector(".experiences").classList.remove("active");
+      }
+
+      if (projectsRect.top < 70) {
+        document.querySelector(".projects").classList.add("active");
+      } else {
+        document.querySelector(".projects").classList.remove("active");
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleOptionClick = React.useCallback(
+    (sectionId: string) => setActiveSection(sectionId),
+    []
+  );
+
   return (
     <LeftContainer>
       <div>
@@ -54,17 +96,36 @@ export function HomeLeft() {
         </ProfileInfo>
 
         <OptionsLink>
-          <Option>
+          <Option
+            href="#about"
+            className={activeSection === "about" ? "about active" : "about"}
+            onClick={() => handleOptionClick("about")}
+          >
             <span></span>
-            <a>Sobre</a>
+            <li>Sobre</li>
           </Option>
-          <Option>
+          <Option
+            href="#experiences"
+            className={
+              activeSection === "experiences"
+                ? "experiences active"
+                : "experiences"
+            }
+            onClick={() => handleOptionClick("experiences")}
+          >
             <span></span>
-            <a>Experiências</a>
+            <li>Experiências</li>
           </Option>
-          <Option>
+
+          <Option
+            href="#projects"
+            className={
+              activeSection === "projects" ? "projects active" : "projects"
+            }
+            onClick={() => handleOptionClick("projects")}
+          >
             <span></span>
-            <a>Projetos</a>
+            <li>Projetos</li>
           </Option>
         </OptionsLink>
 

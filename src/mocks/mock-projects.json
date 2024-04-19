@@ -1,0 +1,95 @@
+[
+  {
+    "id": 0,
+    "img": "DevStore",
+    "title": "DevStore",
+    "description": "Projeto desenvolvido em Next.js com objetivo de construir um e-commerce de produtos, com a lógica de adição de item no carrinho através de Providers e uma página detalhada sobre o produtos e tamanhos.",
+    "link": "https://github.com/guirvilela/devstore-app",
+    "phone": false,
+    "techs": [
+      "HTML",
+      "Tailwind",
+      "Componentização",
+      "Javascript",
+      "Typescript",
+      "Next.js",
+      "zod",
+      "Cypress",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 1,
+    "img": "WorldTryp",
+    "title": "WorldTryp",
+    "description": "Projeto desenvolvido em Next.js com objetivo de trazer dados de países e suas especificações, como quantidade de línguas presentes, visitantes e população. Projeto contruído para aprender a tecnlogia Chakra.ui",
+    "link": "https://github.com/guirvilela/worldTrip-Next-Chakra",
+    "phone": false,
+    "techs": [
+      "HTML",
+      "Chakra.ui",
+      "Componentização",
+      "Javascript",
+      "Typescript",
+      "Next.js"
+    ]
+  },
+  {
+    "id": 2,
+    "img": "RentX",
+    "title": "RentX aluguel de carros",
+    "description": "Projeto que é praticado a lógica de programação com TypeScript para criação das funcionalidades desse aplicativo, assim como toda estrutura para as requisições das funcionalidades desse aplicativo que utiliza o Axios e GitHub api, sendo possível pesquisar por repositórios do GitHub e observar detalhes, como, notas, clonagens e problemas em aberto com o repositório. O foco do projeto é em desenvolver a lógica para trazer todos os dados do repositório pesquisado, como também aplicar animações de movimentação dos cards e texto nas telas. ",
+    "link": "https://github.com/guirvilela/RN-GitHubExplorer-Animated",
+    "phone": true,
+    "techs": [
+      "Expo",
+      "React Native",
+      "Componentização",
+      "Javascript",
+      "Typescript",
+      "Styled Components",
+      "Axios",
+      "Design Patterns",
+      "RN Calendars",
+      "RN Reanimated",
+      "Redux"
+    ]
+  },
+  {
+    "id": 3,
+    "img": "GitHubExplorer",
+    "title": "GitHubExplorer ",
+    "description": "Projeto desenvolvido em React native com objetivo de aplicar conhecimentos de animações de cards utilizando React Native Reanimated, utilizando Axios para resgatar os dados do GitHub e trazendo informações sobre cada repositório.",
+    "link": "https://github.com/guirvilela/RN-GitHubExplorer-Animated",
+    "phone": true,
+    "techs": [
+      "Expo",
+      "React Native",
+      "Componentização",
+      "Javascript",
+      "Typescript",
+      "Styled Components",
+      "Axios",
+      "Api GitHub",
+      "RN Reanimated",
+      "Redux"
+    ]
+  },
+  {
+    "id": 4,
+    "img": "SavePass",
+    "title": "SavePass",
+    "description": "Projeto desenvolvido em React Native com objetivo de praticar a lógica de programação com Typescript com objetivo de salvar senhas pessoais em Async-Storage, revisando a estrutura de Try-Catch para tratamento de erros",
+    "link": "https://github.com/guirvilela/RN-SavePass",
+    "phone": true,
+    "techs": [
+      "Expo",
+      "Android Studio",
+      "React Native",
+      "Componentização",
+      "Javascript",
+      "Typescript",
+      "Styled Components"
+    ]
+  }
+]
