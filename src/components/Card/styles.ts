@@ -10,11 +10,6 @@ export const CardContainer = styled.li`
   position: relative;
   opacity: 0.8;
 
-  @media (min-width: 640px) {
-    .sm\:grid-cols-8 {
-      grid-template-columns: repeat(8, minmax(0, 1fr));
-    }
-  }
   &:hover {
     opacity: 1;
     filter: brightness(1.3);
@@ -23,6 +18,13 @@ export const CardContainer = styled.li`
       opacity: 0.2;
     }
 
+    h2 {
+      color: ${({ theme }) => theme.colors.green_500};
+    }
+  }
+
+  @media (max-width: 680px) {
+    display: block;
     h2 {
       color: ${({ theme }) => theme.colors.green_500};
     }
@@ -135,6 +137,16 @@ export const ProjectContainer = styled.a`
       transform: translateY(-4px) translateX(4px);
     }
   }
+
+  @media (max-width: 680px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin-bottom: 1rem;
+    }
+  }
 `;
 
 export const ProjectPicture = styled.div<PictureProjectProps>`
@@ -147,6 +159,14 @@ export const ProjectPicture = styled.div<PictureProjectProps>`
 
     border: 2px solid ${({ theme }) => theme.colors.border};
     border-radius: 4px;
+  }
+  @media (max-width: 680px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      max-width: ${({ phone }) => (phone ? "55%" : "auto")};
+    }
   }
 `;
 export const DescriptionProjectContainer = styled.div`

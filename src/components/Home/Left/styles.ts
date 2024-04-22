@@ -15,6 +15,13 @@ export const LeftContainer = styled.header`
 
   position: sticky;
   top: 0;
+
+  @media (max-width: 980px) {
+    position: relative;
+  }
+
+  @media (max-width: 600px) {
+  }
 `;
 
 export const ProfileInfo = styled.div`
@@ -55,6 +62,10 @@ export const OptionsLink = styled.ul`
   gap: 16px;
   max-width: 150px;
   margin-bottom: 3rem;
+
+  @media (max-width: 980px) {
+    display: none;
+  }
 `;
 
 export const Option = styled.a`
@@ -128,6 +139,11 @@ export const Techs = styled.div`
   img {
     width: 36px;
     transition: filter 0.3s ease-in-out;
+  }
+
+  @media (max-width: 980px) {
+    margin-bottom: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
   }
 `;
 

@@ -40,7 +40,7 @@ export function useLeftController() {
       const projectsSection = document.getElementById("projects");
 
       if (!aboutSection || !experiencesSection || !projectsSection) {
-        return; // Exit early if any section is not found
+        return;
       }
 
       const aboutRect = aboutSection.getBoundingClientRect();
