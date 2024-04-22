@@ -35,7 +35,7 @@ export function HomeLeft() {
     <LeftContainer>
       <div>
         <ProfileInfo>
-          <h1>Guilherme Ribeiro Vilela</h1>
+          <h1 className="profile_name">Guilherme Ribeiro Vilela</h1>
 
           <h2>{t("left_profile")}</h2>
           <Languages lang={i18n.language}>

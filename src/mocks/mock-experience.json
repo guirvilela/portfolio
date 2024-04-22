@@ -17,7 +17,8 @@
       "Storybook",
       "Jest",
       "Cypress",
-      "Scrum"
+      "Scrum",
+      "CI/CD"
     ]
   },
 

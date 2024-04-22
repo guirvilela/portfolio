@@ -8,15 +8,41 @@ export const RigthContainer = styled.main`
   flex-direction: column;
 
   section {
+    position: relative;
     h1 {
       display: none;
     }
+    article {
+      margin: 1rem 0;
+    }
 
-    @media (max-width: 640px) {
+    @media (max-width: 980px) {
+      .title-sticky {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+
+        .title-bg {
+          position: relative;
+          padding: 1rem 0;
+        }
+
+        article {
+          margin: 0;
+          position: absolute;
+          background-color: rgba(15, 23, 42, 0.75);
+          z-index: -1;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          backdrop-filter: blur(8px);
+        }
+      }
+
       h1 {
         display: block;
         font-size: 18px;
-        margin-bottom: 8px;
       }
     }
   }

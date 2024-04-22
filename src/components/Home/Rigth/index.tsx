@@ -24,8 +24,12 @@ export function HomeRigth() {
   return (
     <RigthContainer id="about">
       <SectionDescription>
-        <h1>{t("right_about")}</h1>
-
+        <div className="title-sticky">
+          <div className="title-bg">
+            <article />
+            <h1>{t("reuse_about")}</h1>
+          </div>
+        </div>
         <ProfileDescription
           dangerouslySetInnerHTML={{ __html: t("right_description") }}
         />
@@ -34,7 +38,13 @@ export function HomeRigth() {
       <Separator id="experiences" />
 
       <SectionExperiences>
-        <h1>{t("right_experiences")}</h1>
+        <div className="title-sticky">
+          <div className="title-bg">
+            <article />
+            <h1>{t("reuse_experiences")}</h1>
+          </div>
+        </div>
+
         <ExperienceContainer>
           {experiences.map((experience) => (
             <Card
@@ -75,7 +85,12 @@ export function HomeRigth() {
       <Separator id="projects" />
 
       <SectionProjects>
-        <h1>{t("right_projects")}</h1>
+        <div className="title-sticky">
+          <div className="title-bg">
+            <article />
+            <h1>{t("reuse_projects")}</h1>
+          </div>
+        </div>
 
         {projects.map((project) => (
           <Card
