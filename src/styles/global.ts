@@ -36,6 +36,7 @@ body, input, text-area, a,  button{
 button, a{
     cursor: pointer;
     border:0;
+    background-color: transparent;
 }
 
 ::-webkit-scrollbar {

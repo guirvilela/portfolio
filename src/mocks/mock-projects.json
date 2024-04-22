@@ -4,6 +4,7 @@
     "img": "DevStore",
     "title": "DevStore",
     "description": "Projeto desenvolvido em Next.js com objetivo de construir um e-commerce de produtos, com a lógica de adição de item no carrinho através de Providers e uma página detalhada sobre o produtos e tamanhos.",
+    "description_en": "Project developed in Next.js with the goal of building an e-commerce platform for products, featuring the logic of adding items to the cart through Providers and a detailed product page with size options.",
     "link": "https://github.com/guirvilela/devstore-app",
     "phone": false,
     "techs": [
@@ -23,28 +24,23 @@
     "img": "WorldTryp",
     "title": "WorldTryp",
     "description": "Projeto desenvolvido em Next.js com objetivo de trazer dados de países e suas especificações, como quantidade de línguas presentes, visitantes e população. Projeto contruído para aprender a tecnlogia Chakra.ui",
+    "description_en": "Project developed in Next.js with the goal of fetching data about countries and their specifications, such as the number of languages spoken, visitors, and population. The project was built to learn the Chakra UI technology.",
     "link": "https://github.com/guirvilela/worldTrip-Next-Chakra",
     "phone": false,
-    "techs": [
-      "HTML",
-      "Chakra.ui",
-      "Componentização",
-      "Javascript",
-      "Typescript",
-      "Next.js"
-    ]
+    "techs": ["HTML", "Chakra.ui", "Javascript", "Typescript", "Next.js"]
   },
   {
     "id": 2,
     "img": "RentX",
-    "title": "RentX aluguel de carros",
+    "title": "RentX • aluguel de carros",
+    "title_en": "RentX • Car rental",
     "description": "Projeto que é praticado a lógica de programação com TypeScript para criação das funcionalidades desse aplicativo, assim como toda estrutura para as requisições das funcionalidades desse aplicativo que utiliza o Axios e GitHub api, sendo possível pesquisar por repositórios do GitHub e observar detalhes, como, notas, clonagens e problemas em aberto com o repositório. O foco do projeto é em desenvolver a lógica para trazer todos os dados do repositório pesquisado, como também aplicar animações de movimentação dos cards e texto nas telas. ",
+    "description_en": "Project where programming logic with TypeScript is practiced to create the functionalities of this application, as well as the entire structure for the requests of the functionalities of this application that uses Axios and the GitHub API. It is possible to search for GitHub repositories and observe details such as stars, forks, and open issues with the repository. The focus of the project is to develop the logic to fetch all the data of the searched repository, as well as to apply animations for moving cards and text on the screens.",
     "link": "https://github.com/guirvilela/RN-GitHubExplorer-Animated",
     "phone": true,
     "techs": [
       "Expo",
       "React Native",
-      "Componentização",
       "Javascript",
       "Typescript",
       "Styled Components",
@@ -60,12 +56,12 @@
     "img": "GitHubExplorer",
     "title": "GitHubExplorer ",
     "description": "Projeto desenvolvido em React native com objetivo de aplicar conhecimentos de animações de cards utilizando React Native Reanimated, utilizando Axios para resgatar os dados do GitHub e trazendo informações sobre cada repositório.",
+    "description_en": "Project developed in React Native with the goal of applying knowledge of card animations using React Native Reanimated, using Axios to fetch data from GitHub and providing information about each repository.",
     "link": "https://github.com/guirvilela/RN-GitHubExplorer-Animated",
     "phone": true,
     "techs": [
       "Expo",
       "React Native",
-      "Componentização",
       "Javascript",
       "Typescript",
       "Styled Components",
@@ -80,13 +76,13 @@
     "img": "SavePass",
     "title": "SavePass",
     "description": "Projeto desenvolvido em React Native com objetivo de praticar a lógica de programação com Typescript com objetivo de salvar senhas pessoais em Async-Storage, revisando a estrutura de Try-Catch para tratamento de erros",
+    "description_en": "Project developed in React Native with the goal of practicing programming logic with TypeScript to save personal passwords in Async-Storage, while revising the Try-Catch structure for error handling.",
     "link": "https://github.com/guirvilela/RN-SavePass",
     "phone": true,
     "techs": [
       "Expo",
       "Android Studio",
       "React Native",
-      "Componentização",
       "Javascript",
       "Typescript",
       "Styled Components"

@@ -1,0 +1,16 @@
+{
+  "project": "Portfolio BR",
+
+  "left_profile": "Desenvolvedor Front-End",
+
+  "reuse_about": "Sobre",
+  "reuse_experiences": "Experiência",
+  "reuse_projects": "Projetos",
+
+  "right_description": "Desenvolvedor Front-end Web e Mobile com 5 anos de experiência. Especializado em <b> JavaScript, React/Next.js, Angular 11, Jest e Cypress. Proficiente em Scrum </b> , com experiência em mentoria e treinamento em testes unitários. Profissional com diploma de Bacharel em Ciência da Computação pela UNIS-MG em Varginha.",
+  "right_about": "Sobre",
+  "right_experiences": "Experiências",
+  "right_projects": "Projetos",
+
+  "right_resume": "Ver resumo completo"
+}

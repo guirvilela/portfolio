@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface LanguagesProps {
+  lang: string;
+}
+
 export const LeftContainer = styled.header`
   max-height: 100vh;
   padding: 6rem 2rem;
@@ -24,6 +28,25 @@ export const ProfileInfo = styled.div`
     font-weight: 500;
     font-size: 1.25rem;
   }
+`;
+
+export const Languages = styled.div<LanguagesProps>`
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+
+  ${({ lang }) =>
+    lang === "pt"
+      ? `
+    button:nth-child(1) {
+      scale: 1.3; 
+    }
+  `
+      : `
+  button:nth-child(2) {
+    scale: 1.3; 
+  }
+`}
 `;
 
 export const OptionsLink = styled.ul`
@@ -52,6 +75,7 @@ export const Option = styled.a`
     transition: width 0.2s ease-in-out;
   }
   li {
+    font-size: 1rem;
     color: ${({ theme }) => theme.colors.unpress};
     opacity: 0.7;
   }
@@ -121,7 +145,7 @@ export const Contacts = styled.ul`
       transition: filter 0.3s ease-in-out;
 
       &:hover {
-        filter: brightness(1.3);
+        filter: brightness(2);
       }
     }
   }
