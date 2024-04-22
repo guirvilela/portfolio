@@ -56,8 +56,8 @@ export const ExperienceContainer = styled.ul`
 
 export const BtnFileContainer = styled.div`
   display: flex;
-  align-items: start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: end;
 `;
 
 export const BtnFile = styled.a`

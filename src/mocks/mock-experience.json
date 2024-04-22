@@ -2,9 +2,12 @@
   {
     "id": 1,
     "role": "Desenvolvedor Frontend React Pleno",
+    "role_en": "Mid-level React Frontend Developer",
     "company": "Hubert Administração de Condomínios e Imóveis",
     "date": "2023 – Atual",
+    "date_en": "2023 – Present",
     "description": "Desenvolvimento de projetos com foco em tecnologias de ponta, tais como React/Next, Angular 11 e React Native, integrando com eficiência APIs REST e empregando StyledComponents, HTML, CSS, NPM e GIT. Liderança em meetups voltados para testes unitários e gerenciamento eficaz de projetos no ambiente Azure. Destaque para a criação de templates dinâmicos para websites, seguindo metodologia ágil com Scrum e Azure Boards. O projeto inclui suporte para múltiplos idiomas, utilizando i18n para garantir acessibilidade global.",
+    "description_en": "Development of projects focusing on cutting-edge technologies, such as React/Next, Angular 11, and React Native, efficiently integrating with REST APIs and employing StyledComponents, HTML, CSS, NPM, and GIT. Leadership in meetups focused on unit testing and effective project management in the Azure environment. Highlight on creating dynamic templates for websites, following agile methodology with Scrum and Azure Boards. The project includes support for multiple languages, using i18n to ensure global accessibility.",
     "techs": [
       "Javascript",
       "TypeScript",
@@ -21,9 +24,11 @@
   {
     "id": 2,
     "role": "Analista de Desenvolvimento Pleno",
+    "role_en": "Mid-level Development Analyst",
     "company": "i476",
     "date": "2021 – Nov 2022 ",
     "description": "Desenvolvimento de projetos utilizando Angular 11, SASS, HTML, CSS, YARN, JIRA e GIT, com integração de API Rest. Destaque para criação de dashboard com gráficos e templates dinâmicos para o site, adaptados aos dados da API Rest. Utilização do sistema operacional Ubuntu. Metodologia ágil Scrum, gerenciamento de tarefas com Trello e Jira. Liderança no desenvolvimento do aplicativo financeiro de uma empresa parceira em React Native, aplicando StyleSheet, ThemeProvider, Redux, Hooks e Clean Code.",
+    "description_en": "Development of projects using Angular 11, SASS, HTML, CSS, YARN, JIRA, and GIT, with integration of Rest API. Highlight on creating dashboards with graphics and dynamic templates for the website, adapted to the data from the Rest API. Use of Ubuntu operating system. Agile methodology Scrum, task management with Trello and Jira. Leadership in developing the financial application of a partner company in React Native, applying StyleSheet, ThemeProvider, Redux, Hooks, and Clean Code.",
     "techs": [
       "HTML e SCSS",
       "Javascript",
@@ -39,9 +44,11 @@
   {
     "id": 3,
     "role": "Desenvolvedor web Frontend Angular",
+    "role_en": "Frontend Web Developer Angular",
     "company": "Simplifica Fretes",
     "date": "2020 – Jul 2021 ",
     "description": "Desenvolvimento de projetos na startup com Angular (versão 5.4), SASS, HTML, CSS, YARN, BITBUCKET e GIT, integrados a APIs REST. Atuo na manutenção do servidor de hospedagem e na realização de testes e deploy da aplicação em produção. Destaco a criação de um dashboard com gráficos, uma plataforma de assinatura e novos templates dinâmicos para o site, adaptados aos dados da API Rest. Utilizo Ubuntu como sistema operacional e implemento o método ágil Scrum, com divisão de tarefas via Trello em sprints de duas semanas. Também introduzi o Scrum na empresa e implementei WebSocket para aplicações em tempo real.",
+    "description_en": "Development of projects at the startup using Angular (version 5.4), SASS, HTML, CSS, YARN, BITBUCKET, and GIT, integrated with REST APIs. I work on maintaining the hosting server and performing testing and deployment of the application in production. I highlight the creation of a dashboard with graphics, a subscription platform, and new dynamic templates for the website, adapted to the data from the REST API. I use Ubuntu as the operating system and implement the agile Scrum method, with task division via Trello into two-week sprints. I also introduced Scrum to the company and implemented WebSocket for real-time applications.",
     "techs": [
       "HTML e SCSS",
       "Javascript",
@@ -56,9 +63,12 @@
   {
     "id": 4,
     "role": "Desenvolvedor web Frontend Vue.js",
+    "role_en": "Frontend Web Developer Vue.js",
     "company": "Wizzer Imóveis",
     "date": "2019 – Fev 2020",
+    "date_en": "2019 – Feb 2020",
     "description": "Desenvolvimento de projetos na startup, utilizando Vue.js, SASS, HTML, CSS, YARN e GIT. Responsável pela criação de layouts e participação em meetups da equipe para discutir sobre Vue.js. Reportando-se ao proprietário da empresa, fornecendo informações sobre as atividades realizadas.",
+    "description_en": "Development of projects at the startup, using Vue.js, SASS, HTML, CSS, YARN, and GIT. Responsible for creating layouts and participating in team meetups to discuss Vue.js. Reporting to the company owner, providing information about the activities performed.",
     "techs": ["HTML e SCSS", "Javascript", "Vue.js"]
   }
 ]
