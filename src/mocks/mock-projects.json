@@ -10,7 +10,6 @@
     "techs": [
       "HTML",
       "Tailwind",
-      "Componentização",
       "Javascript",
       "Typescript",
       "Next.js",
@@ -36,7 +35,7 @@
     "title_en": "RentX • Car rental",
     "description": "Projeto que é praticado a lógica de programação com TypeScript para criação das funcionalidades desse aplicativo, assim como toda estrutura para as requisições das funcionalidades desse aplicativo que utiliza o Axios e GitHub api, sendo possível pesquisar por repositórios do GitHub e observar detalhes, como, notas, clonagens e problemas em aberto com o repositório. O foco do projeto é em desenvolver a lógica para trazer todos os dados do repositório pesquisado, como também aplicar animações de movimentação dos cards e texto nas telas. ",
     "description_en": "Project where programming logic with TypeScript is practiced to create the functionalities of this application, as well as the entire structure for the requests of the functionalities of this application that uses Axios and the GitHub API. It is possible to search for GitHub repositories and observe details such as stars, forks, and open issues with the repository. The focus of the project is to develop the logic to fetch all the data of the searched repository, as well as to apply animations for moving cards and text on the screens.",
-    "link": "https://github.com/guirvilela/RN-GitHubExplorer-Animated",
+    "link": "https://github.com/guirvilela/RN-Rentx",
     "phone": true,
     "techs": [
       "Expo",
