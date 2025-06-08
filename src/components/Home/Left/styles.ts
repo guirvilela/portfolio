@@ -12,6 +12,7 @@ export const LeftContainer = styled.header`
   flex: 1 1 60%;
   flex-direction: column;
   justify-content: space-between;
+  gap: 5rem;
 
   position: sticky;
   top: 0;
@@ -25,7 +26,7 @@ export const LeftContainer = styled.header`
 `;
 
 export const ProfileInfo = styled.div`
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   h1 {
     font-size: 2.5rem;
@@ -39,8 +40,8 @@ export const ProfileInfo = styled.div`
 
 export const Languages = styled.div<LanguagesProps>`
   display: flex;
-  gap: 8px;
-  margin-top: 4px;
+  gap: 1rem;
+  margin-top: 1rem;
 
   ${({ lang }) =>
     lang === "pt"
@@ -122,7 +123,7 @@ export const Techs = styled.div`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 
-  gap: 2.5rem;
+  gap: 3rem;
 
   div:nth-child(9),
   div:nth-child(10),
@@ -151,7 +152,7 @@ export const Contacts = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 5rem;
   list-style: none;
 
   li {

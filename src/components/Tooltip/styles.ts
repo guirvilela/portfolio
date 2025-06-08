@@ -6,14 +6,14 @@ export const TooltipContent = styled.div`
   position: relative;
   transition: display 0.2s ease-in-out;
 
-  &:hover div {
+  /* &:hover div {
     opacity: 1;
-  }
+  } */
 
   div {
     position: absolute;
     bottom: -2rem;
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 0.3s ease;
 
     b {

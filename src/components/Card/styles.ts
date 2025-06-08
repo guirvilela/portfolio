@@ -109,6 +109,8 @@ export const TextTech = styled.li`
 export const ProjectContainer = styled.a`
   display: flex;
   text-decoration: none;
+  flex-direction: column;
+  gap: 1rem;
   position: relative;
   opacity: 0.8;
 
@@ -152,13 +154,18 @@ export const ProjectContainer = styled.a`
 export const ProjectPicture = styled.div<PictureProjectProps>`
   flex: 1 1 20%;
   img {
-    max-width: 85%;
+    width: 100%;
+    min-height: 300px;
+    padding: 0.5rem;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
     max-height: ${({ phone }) => (phone ? "85%" : "auto")};
     transition: border 0.2s ease-in-out;
     translate: 0 5px;
 
-    border: 2px solid ${({ theme }) => theme.colors.border};
-    border-radius: 4px;
+    /* border: 2px solid ${({ theme }) => theme.colors.border}; */
+    border-radius: 14px;
   }
   @media (max-width: 680px) {
     display: flex;

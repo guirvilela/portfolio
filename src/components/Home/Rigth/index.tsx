@@ -4,10 +4,9 @@ import {
   BtnFileContainer,
   ExperienceContainer,
   ProfileDescription,
-  RigthContainer,
+  RightContainer,
   SectionDescription,
   SectionExperiences,
-  SectionProjects,
   Separator,
 } from "./styles";
 
@@ -16,13 +15,12 @@ import arrowIcon from "../../../assets/icons/arrow.svg";
 import curriculoBr from "../../../assets/pdf/Profile-br.pdf";
 import curriculoEn from "../../../assets/pdf/Profile-en.pdf";
 import experiences from "../../../mocks/mock-experience.json";
-import projects from "../../../mocks/mock-projects.json";
 
-export function HomeRigth() {
+export function HomeRight() {
   const { t, i18n } = useTranslation();
 
   return (
-    <RigthContainer id="about">
+    <RightContainer id="about">
       <SectionDescription>
         <div className="title-sticky">
           <div className="title-bg">
@@ -83,35 +81,6 @@ export function HomeRigth() {
       </SectionExperiences>
 
       <Separator id="projects" />
-
-      <SectionProjects>
-        <div className="title-sticky">
-          <div className="title-bg">
-            <article />
-            <h1>{t("reuse_projects")}</h1>
-          </div>
-        </div>
-
-        {projects.map((project) => (
-          <Card
-            key={`card-project-${project.id}`}
-            functionTitle={
-              i18n.language === "en" && project.title_en
-                ? project.title_en
-                : project.title
-            }
-            description={
-              i18n.language === "pt"
-                ? project.description
-                : project.description_en
-            }
-            img={project.img}
-            link={project.link}
-            techs={project.techs}
-            phone={project.phone}
-          />
-        ))}
-      </SectionProjects>
-    </RigthContainer>
+    </RightContainer>
   );
 }

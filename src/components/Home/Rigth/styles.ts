@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const RigthContainer = styled.main`
+export const RightContainer = styled.main`
   min-height: 100vh;
   padding: 6rem 2rem;
   display: flex;
